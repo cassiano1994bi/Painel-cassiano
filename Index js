@@ -1,1 +1,7 @@
-console.log('Olá, Cassiano! Seu app está funcionando!');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import PainelCassiano from './PainelCassiano';
+
+ReactDOM.render(<React.StrictMode>
+    <PainelCassiano />
+  </React.StrictMode>, document.getElementById('root'));
